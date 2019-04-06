@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'grobold';
+	src: url('../font/grobold.ttf') format('truetype');
+}
+
+body {
+	font-family: 'grobold';
+	/* Code from samonyt.xyz */
+    background: linear-gradient(321deg, #159cd1, #10b1f1);
+	-webkit-animation: fade 2s ease infinite;
+	-moz-animation: fade 2s ease infinite;
+	-o-animation: fade 2s ease infinite;
+	animation: fade 2s ease infinite;
+
+	/* Code from da532.com */
+	@-webkit-keyframes fade {
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+    @-moz-keyframes fade {
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+    @-o-keyframes fade {
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+    @keyframes fade { 
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+}
+
+/* Code from css-tricks.com */
+h1, h2, .subtitle, p {
+	-webkit-text-fill-color: white;
+  	-webkit-text-stroke-width: 1.5px;
+  	-webkit-text-stroke-color: black;
+}
+
+.avatar {
+	border-radius: 100%;
+	width: 250px;
+	/* Code from ao554.com */
+	transition: 0.8s ease;
+	-webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.avatar:hover {
+	transform: rotate(360deg);
+}
+
+a.navbar-item p {
+	color: white !important;
+	-webkit-text-stroke-width: 0px;
+}
+
+a.navbar-item:hover {
+	background-color: transparent;
+}
+
+a.level-item i {
+	font-size: 50px;
+	color: white;
+}
+
+.navbar-menu {
+	background-color: black;
+}
+
+iframe {
+	height: 337px;
+}
